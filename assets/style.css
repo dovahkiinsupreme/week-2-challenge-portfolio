@@ -13,16 +13,21 @@ body {
     background-color:darkslategrey;
 }
 
+h2 {
+    color:rgba(10, 12, 71, 0.755);
+}
+
 .title {
     display:flex;
+    justify-content: space-between;
     padding:50px;
     color:rgba(10, 12, 71, 0.755);
     background-color: aquamarine;
 }
 
 .title ul {
+    display:flexbox;
     margin-top:10px;
-    float:right;
 }
 
 .title ul li {
@@ -43,12 +48,25 @@ a {
     border-color: rgba(10, 12, 71, 0.755);
 }
 
-.about {
+
+
+.about-me, .work, .contact-me, .resume {
    
     margin-top: 5%;
     color: rgba(10, 12, 71, 0.755);
     width:30%;
-    display:inline-block;
+    display:flex;
+    flex-wrap:wrap;
+    border: 5px solid;
+    padding: 20px;
+    justify-content:space-between;   
+}
+
+ .email {
+    text-decoration: none;
+    padding:5px;
+    color:rgba(10, 12, 71, 0.755);
+    border:none;
 }
 
 img {
@@ -56,6 +74,6 @@ img {
     width: 230.7px;
     height:308x;
     margin: 50px;
-    border-width:5px;
+    border: 5px solid;
     border-color:rgba(10, 12, 71, 0.755);
 }
