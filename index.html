@@ -10,20 +10,21 @@
 
 <body>
  <header class="title">
+
     <h1>Brad Ingram</h1>
-    <div class="headings">
+    <div>
         <ul>
             <li>
-                <a href="#about-me">About Me</a>
+                <button class="raise"><a class="top" href="#about-me">About Me</a></button>
             </li>
             <li>
-                <a href="#work">Work</a>
+                <button class="raise"><a class="top" href="#work">Work</a></li></button>
             </li>
             <li>
-                <a href="#contact-me">Contact Me</a>
+                <button class="raise"><a class="top" href="#contact-me">Contact Me</a></button>
             </li>
             <li>
-                <a href="#resume">Resume</a>
+                <button class="raise"><a class="top" href="#resume">Resume</a></button>
             </li>
         </ul>
         <div>
@@ -34,31 +35,40 @@
     <img src="assets\images\20221203_143759.jpg" alt="Ingram family"> 
 </div>
 
+<div class="row">
+
  <section class="about-me" id="about-me">
     <h2>About Me:</h2>
-        <p>
+        <p><strong>
             My name is Brad Ingram and am working towards becoming a full-stack web developer.
-            I am currently employed as a Field Engineer for a small agriculture company
-            in Topeka, KS. I received my Mechanical Engineering
+            I am currently employed as a Field Engineer for Capstan Ag Systems Inc. located in Topeka, KS. I received my Mechanical Engineering
             degree from Wichita State University in May of 2021. I am
             a Navy veteran. 
-        </p>
+        </strong></p>
  </section>
 
 <section class="work" id="work">
     <h2>Work</h2>
+    <ul>
+        <li class="github"><button class="raise"><a href="https://github.com/dovahkiinsupreme"><strong>GitHub</strong></a></button></li>
+    </ul>
 </section>
 
 <section class="contact-me" id="contact-me">
     <h2>Contact Me</h2>
         <ul>
-            <li class="email"><a href = "mailto: brad.ingram03@gmail.com">E-mail</a></li>
+            <li class="email"><button class="raise"><a href = "mailto: brad.ingram03@gmail.com"><strong>E-mail</strong></a></button></li>
+            </li class="phone"><button class="raise"><a href="tel:3166414312"><strong>Phone</strong></a></button>
         </ul>
 </section>
 
 <section class="resume" id="resume">
     <h2>Resume</h2>
+        <ul>
+            <li class="linkedin"><button class="raise"><a href="https://www.linkedin.com/in/brad-ingram-860778127/"><strong>LinkedIn</strong></a></button></li>
+        </ul> 
 </section>
-    
+</div>
+
 </body>
 </html>

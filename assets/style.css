@@ -5,6 +5,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+hr.solid {
+    border-top: 200px  rgba(10, 12, 71, 0.755);
+    border-width: 5px;
+  }
+
 body {
     background-image:url("../assets/images/243052.jpg");
     background-repeat: no-repeat;
@@ -13,8 +18,35 @@ body {
     background-color:darkslategrey;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -150px;
+    margin-right: -150px;
+
+}
+
+
+
 h2 {
     color:rgba(10, 12, 71, 0.755);
+}
+
+button {
+    background: none;
+    border:none;
+    font-size:18px;
+    font-style:oblique 5deg;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(48, 240, 247);
+  transform: translateY(-0.25em);
 }
 
 .title {
@@ -22,7 +54,6 @@ h2 {
     justify-content: space-between;
     padding:50px;
     color:rgba(10, 12, 71, 0.755);
-    background-color: aquamarine;
 }
 
 .title ul {
@@ -39,6 +70,15 @@ h2 {
     list-style-type: none;
 }
 
+.top {
+    text-decoration: none;
+    padding:15px;
+    color:rgba(10, 12, 71, 0.755);
+    border-style:solid;
+    border-width:5px;
+    border-color: rgba(10, 12, 71, 0.755);
+}
+
 a {
     text-decoration: none;
     padding:5px;
@@ -48,25 +88,33 @@ a {
     border-color: rgba(10, 12, 71, 0.755);
 }
 
-
-
-.about-me, .work, .contact-me, .resume {
+  .about-me, .work, .contact-me, .resume {
    
     margin-top: 5%;
     color: rgba(10, 12, 71, 0.755);
+    background-color: rgba(255, 255, 255, 0.2);
     width:30%;
-    display:flex;
+    display:inline-flex;
     flex-wrap:wrap;
     border: 5px solid;
+    border-color:rgba(10, 12, 71, 0.755);
     padding: 20px;
-    justify-content:space-between;   
+    margin:50px;
+    justify-content:space-between;
+
+
+    
 }
 
- .email {
+.contact-me ul li {
+    display:inline-flex;
+    margin: 10px
+}
+
+ .email, .linkedin, .github {
     text-decoration: none;
+    list-style-type: none;
     padding:5px;
-    color:rgba(10, 12, 71, 0.755);
-    border:none;
 }
 
 img {
