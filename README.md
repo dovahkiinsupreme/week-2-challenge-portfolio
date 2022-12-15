@@ -1,6 +1,6 @@
 # week-2-challenge-portfolio
 
-Week 1 homework - OTJ ticket
+Week 2 Homework - Portfolio
 
 ## Description
 
