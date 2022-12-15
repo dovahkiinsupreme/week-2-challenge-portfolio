@@ -14,7 +14,7 @@ body {
     background-image:url("../assets/images/243052.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 200%;
+    background-size: 150%;
     background-color:darkslategrey;
 }
 
@@ -26,8 +26,6 @@ body {
     margin-right: -150px;
 
 }
-
-
 
 h2 {
     color:rgba(10, 12, 71, 0.755);
@@ -88,7 +86,7 @@ a {
     border-color: rgba(10, 12, 71, 0.755);
 }
 
-  .about-me, .work, .contact-me, .resume {
+.about-me, .work, .contact-me, .resume {
    
     margin-top: 5%;
     color: rgba(10, 12, 71, 0.755);
@@ -101,9 +99,13 @@ a {
     padding: 20px;
     margin:50px;
     justify-content:space-between;
+}
 
-
-    
+.css {
+    position:sticky;
+    border:none;
+    margin:0px;
+    padding: 10px;
 }
 
 .contact-me ul li {
@@ -120,7 +122,7 @@ a {
 img {
     float:left;
     width: 230.7px;
-    height:308x;
+    height:308;
     margin: 50px;
     border: 5px solid;
     border-color:rgba(10, 12, 71, 0.755);
