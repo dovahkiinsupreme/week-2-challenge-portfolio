@@ -19,7 +19,11 @@ I learned how to:
 
 Click one of the three hyperlinks at the top of the page to jump down the page to their descriptive content.
 
-![Brad Ingram Portfolio webpage](assets\images\Brad-Ingram.png)
+![Brad Ingram Portfolio webpage](assets/images/Brad-Ingram.png)
+
+Deployment Link:
+
+https://dovahkiinsupreme.github.io/week-2-challenge-portfolio/
 
 ## Credits
 
